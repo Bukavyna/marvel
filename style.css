@@ -1,0 +1,132 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* reset */
+
+/* fonts */
+
+@font-face {
+	font-family: Tahoma;
+	url('gteate/Tahoma.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Tahoma;
+	url('gteate/Tahoma-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Calibri;
+	url("greate/calibri.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* fonts */
+
+img {
+	display: block;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: auto;
+	width: 1000px;
+	min-height: 400px;
+}
+
+.marvel {
+	width: 1000px;
+	height: 40px;
+	background: #EEEEEE;
+	color: #C91D1D;
+	line-height: 40px;
+	margin: auto;
+}
+
+.marvel p {
+	text-align: center;
+	font-family: Tahoma sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bloc{
+	margin: auto;
+	height: 500px;
+	width: 1000px;
+	border: black 1px solid;
+}
+
+hr {
+	border: none;
+	background: red;
+	height: 2px;
+	margin: 5px 0;
+}
+
+.about{
+	font-family: Calibri sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text{
+	font-family: Calibri sans-serif;
+
+
+}
+.image {
+	width: 100%;
+	margin-bottom: 70px;
+	transition-duration: 2s;
+	transition-property: transform;
+}
+
+.image:hover {
+	background-color: #C91D1D;
+	transform: scale(0.7);
+}
+
+.image_4 {
+	width: calc(25% - 30px / 4);
+	margin-left: calc(30px / 3);
+	transition-duration: 1s;
+	transition-property: transform;
+	float: left;
+}
+
+.image_4:hover{
+	transform: scale(0.8);
+}
+
+.image_4_1{
+	margin: 0;
+	height: 50px;
+}
+
+.studios{
+	height: 450px;
+	width: 400px;
+	margin: 40px;
+	padding: 10px;
+	float: left;
+}
+
+
+
